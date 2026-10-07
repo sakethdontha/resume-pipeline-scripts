@@ -1,6 +1,11 @@
 #!/usr/bin/env python3
 """One command per document: quality checks + render + layout checks.
   python3 build.py resume resume.json keywords.txt extra_numbers.txt   -> resume.pdf
+resume.json may be a short EDIT file: {"base": "data_bi" | "ai_ml" | "supply_chain", then only what changes:
+  "tagline", "summary", "skills", "certifications" (replace whole field),
+  "bullets": {"<role index 0-3>": ["...", ...]} (replace that role's bullets),
+  "projects": ["<name from projects.json>" or a full project object, ...]}
+It is merged with bases/<base>.json and projects.json into resume.full.json before checking.
   python3 build.py letter letter.json                                  -> letter.pdf
 Prints a short report ending in 'BUILD: PASS <bytes>' or 'BUILD: FAIL'. Exit code 1 on failure.
 Add --show to also write page images (pg-1.jpg, ...) for a visual check."""
@@ -10,6 +15,17 @@ kind, src = sys.argv[1], sys.argv[2]
 show = "--show" in sys.argv
 out = f"{kind}.pdf"
 fail = []
+if kind == "resume":
+    import json
+    d = json.load(open(src))
+    if "base" in d:
+        full = json.load(open(os.path.join(HERE, "bases", d["base"] + ".json")))
+        for k in ("tagline", "summary", "skills", "certifications", "experience", "projects"):
+            if k in d: full[k] = d[k]
+        for i, b in d.get("bullets", {}).items(): full["experience"][int(i)]["bullets"] = b
+        lib = json.load(open(os.path.join(HERE, "projects.json")))
+        full["projects"] = [lib[p] if isinstance(p, str) else p for p in full.get("projects", [])]
+        src = "resume.full.json"; json.dump(full, open(src, "w"), indent=1)
 def run(*a):
     r = subprocess.run(a, capture_output=True, text=True); return r.returncode, (r.stdout + r.stderr).strip()
 if kind == "resume":

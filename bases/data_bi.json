@@ -1,0 +1,85 @@
+{
+ "tagline": "MS Data Science | SQL | Python | Power BI | Tableau | ETL | Data Quality",
+ "summary": "Data analyst who cut a four-month review to a day or two at the Shelby County District Attorney General's Office with a Python and SQL Server pipeline that reconciles records across two systems. At the University of Memphis, build Power BI dashboards that reduced leadership reporting time by 60% and raised recruiter efficiency by 30%, and automate recurring reporting with SQL and Python. Validate data before it is reported, document every metric, and explain results to non-technical audiences. Finishing an M.S. in Data Science (GPA 3.97, December 2026).",
+ "skills": [
+  [
+   "SQL & Databases",
+   "SQL, T-SQL, SQL Server, PostgreSQL, MySQL, relational data modeling, star schema, stored procedures"
+  ],
+  [
+   "BI & Reporting",
+   "Power BI (DAX, Power Query), Tableau, Excel (pivot tables, lookups, Power Query), Power Automate, GA4, Google Tag Manager"
+  ],
+  [
+   "Analysis & Statistics",
+   "Python (pandas, Jupyter), R, SAS, regression, hypothesis testing (chi-square, Wilcoxon), time series"
+  ],
+  [
+   "Data Engineering",
+   "ETL pipelines, data reconciliation, data quality checks, PDF data extraction (pdfplumber), process automation"
+  ],
+  [
+   "Cloud & Tools",
+   "Azure, AWS (EC2, S3), Docker, Git, MS Office, Qualtrics"
+  ]
+ ],
+ "experience": [
+  {
+   "title": "Graduate Assistant, Data and Reporting",
+   "org": "University of Memphis, Office of International Affairs",
+   "dates": "Aug 2025 - Present",
+   "place": "Memphis, TN",
+   "bullets": [
+    "Cut leadership reporting time by 60% and raised recruiter efficiency by 30% with automated Power BI dashboards (DAX, Power Query) over recruitment, admissions, and scholarship data.",
+    "Eliminated missed contract renewals with a commission and contract tracking dashboard for 30+ recruitment agencies and Power Automate renewal alerts.",
+    "Automate recurring reports for finance stakeholders with SQL-based ETL across relational databases and Python scripts in Jupyter, keeping a documented definition behind every metric.",
+    "Catch errors before numbers reach leadership with data quality checks that flag incomplete records, and clean and reconcile data from several university systems.",
+    "Designed a Faculty Contact Data System covering 900+ faculty across 650+ partner universities, with a relational schema, Power Automate intake, and a searchable Streamlit interface.",
+    "Answer ad hoc analysis requests from teams across the university and present findings to technical and non-technical audiences, including GA4 and Google Tag Manager KPI reporting."
+   ]
+  },
+  {
+   "title": "Data Intern",
+   "org": "Shelby County District Attorney General's Office",
+   "dates": "Jul 2026 - Aug 2026",
+   "place": "Memphis, TN",
+   "bullets": [
+    "Cut a review that took up to four months down to a day or two with an automated Python and SQL Server pipeline, closing a backlog the office had carried for years.",
+    "Extracted case records from Odyssey division-report PDFs, reconciled them against the JustWare SQL Server database, and applied five families of exclusion rules that narrowed the caseload needing attorney attention to under 5%.",
+    "Delivered formatted Excel and PDF reports that flag unmatched records instead of dropping them, audited output against source records, and wrote deployment documentation so the office runs the system on its own.",
+    "Validated an 11-table case management dataset with a 48-check validation suite and analyzed it in SAS before reporting results."
+   ]
+  },
+  {
+   "title": "Graduate Engineer, R&D",
+   "org": "IFB Industries Limited",
+   "dates": "Jun 2023 - Jun 2024",
+   "place": "India",
+   "bullets": [
+    "Cut manual inventory tracking by 80% with a YOLOv11 inventory recognition model (Python, PyTorch) at 94% detection accuracy.",
+    "Automated Excel reporting of model performance (precision, recall, F1 score), flagged anomalies before production review, and presented recommendations to management.",
+    "Built regression models (linear regression, SVR) on motor RPM and sensor data to detect and classify load conditions in washing machines."
+   ]
+  },
+  {
+   "title": "Placement Coordinator",
+   "org": "National Institute of Technology Goa, Training and Placement Cell",
+   "dates": "Jul 2022 - May 2023",
+   "place": "India",
+   "bullets": [
+    "Coordinated placement drives for 100+ students between students, recruiters, and university management, keeping records accurate and reconciled against recruiter reports.",
+    "Ran interview preparation sessions and wrote user guides for students while running several drives at once."
+   ]
+  }
+ ],
+ "projects": [
+  "Retail Sales and Customer Behavior Dashboard",
+  "Criminal Case System Analysis",
+  "University Admission Prediction Pipeline"
+ ],
+ "certifications": [
+  "Machine Learning Specialization, Coursera (Jul 2025)",
+  "Azure Data Fundamentals, Microsoft (Sep 2025)",
+  "Power BI (Jun 2025)  |  Tableau (Nov 2024)  |  DBMS (Dec 2022)"
+ ]
+}
