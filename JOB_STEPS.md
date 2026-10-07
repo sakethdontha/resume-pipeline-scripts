@@ -5,7 +5,7 @@ Drive IDs: 2_Ready 1K7xcrPB4KmeXaVxUTi3FBJB_GDhs0M4q | 3_Done 1vP_aCD05XxfvYASxX
 
 ## Steps
 1. read_file_content the job. Header lines: Company, Role, Posting URL, Location, Cover letter (yes/no), Notes; then the posting. If it is not a readable job posting, skip to step 6 with NEEDS_SAKETH.
-2. Pick the closest base: `data_bi` (data/BI/reporting/analyst/statistics), `ai_ml` (ML/AI/data science/engineering), `supply_chain` (supply chain/logistics/operations/inventory). Read ~/rb/bases/<base>.json (finished, checked resume) and ~/rb/facts.txt (all allowed facts). Project names available: see keys of ~/rb/projects.json.
+2. Pick the closest base: `data_bi` (data/BI/reporting/analyst/statistics), `ai_ml` (ML/AI/data science/engineering), `supply_chain` (supply chain/logistics/operations/inventory). Read ~/rb/bases/<base>.json (finished, checked resume), ~/rb/facts.txt (all allowed facts) and ~/rb/updates.txt (newer facts; they win over facts.txt). Project names available: see keys of ~/rb/projects.json.
 3. Write keywords.txt: the employer's own terms (tools, duties, qualifications), lowercase, one per line, ONLY ones true of Saketh.
 4. Write a SHORT edit file resume.json containing only what should change for this posting:
    `{"base": "data_bi", "tagline": "...", "summary": "...", "skills": [...], "bullets": {"0": [...]}, "projects": ["Name", ...]}`
@@ -26,7 +26,7 @@ Drive IDs: 2_Ready 1K7xcrPB4KmeXaVxUTi3FBJB_GDhs0M4q | 3_Done 1vP_aCD05XxfvYASxX
 8. Reply with ONE line: `<Company> | <Role> | NN% | READY` (or NEEDS_SAKETH: reason).
 
 ## Rules
-- Only facts and numbers in facts.txt and the bases. Never invent a number, tool, title, or date. GPA 3.97; title "Data Intern"; YOLOv11. Never mention OPT, visa, EAD, sponsorship, or citizenship.
+- Only facts and numbers in facts.txt, updates.txt, and the bases. Never invent a number, tool, title, or date. GPA 3.97; title "Data Intern"; YOLOv11. Never mention OPT, visa, EAD, sponsorship, or citizenship.
 - Criminal Case System Analysis: DA's office work; never "sample/practice"; no dataset sizes; no findings.
 - Results first: each bullet opens with the outcome; summary opens with his strongest relevant result. Do not copy the posting's sentences; each employer keyword at most twice.
 - US spelling; no em or en dashes; never: leveraged, spearheaded, passionate, robust, seamless, utilize, synergy, cutting-edge, delve, meticulous, comprehensive.

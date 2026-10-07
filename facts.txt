@@ -1,0 +1,64 @@
+RESUME FACTS (COMPACT): SAKETH DONTHA
+Only facts and numbers here (and in the 0b_Fact_Updates folder) may be used. Never invent anything. Header, contact links, and Education are added automatically by the renderer.
+
+EXPERIENCE (exact titles and dates)
+
+1. Graduate Assistant, Data and Reporting | University of Memphis, Office of International Affairs | Aug 2025 - Present | Memphis, TN
+- Automated Power BI dashboards (DAX, Power Query) over recruitment, admissions, and scholarship data; cut leadership reporting time by 60% and raised recruiter efficiency by 30%
+- Commission and contract tracking dashboard for 30+ recruitment agencies with Power Automate renewal alerts; eliminated missed contract renewals
+- Automates recurring reporting for finance stakeholders: SQL-based ETL across relational databases plus Python scripting in Jupyter; documented definition behind every metric
+- Data quality checks that flag incomplete records before each reporting cycle; cleans, aggregates, and reconciles data from several university systems
+- Ad hoc analysis requests from teams across the university; presents findings to technical and non-technical audiences
+- Faculty Contact Data System: 900+ faculty across 650+ partner universities; relational schema, Outlook and Power Automate intake, searchable Streamlit interface (repo: https://github.com/sakethdontha/uofm_faculty_form)
+- GA4 and Google Tag Manager KPI reporting on recruitment and web traffic trends for management
+- Qualtrics surveys with rebuilt skip logic
+Tools: Power BI, DAX, Power Query, Power Automate, SQL, Python, Jupyter, Excel, Streamlit, Tableau, Qualtrics, GA4, Google Tag Manager, Microsoft 365
+
+2. Data Intern | Shelby County District Attorney General's Office | Jul 2026 - Aug 2026 | Memphis, TN  (title is "Data Intern", never "Data Analyst Intern")
+Division report automation (always leads this job; the only work the recommendation letter describes):
+- Automated Python and SQL Server pipeline that cut a review of up to four months to a day or two and closed a backlog the office had carried for years
+- Extracts case records from Odyssey division-report PDFs, reconciles them against the JustWare SQL Server database, applies five families of exclusion rules, and narrows the caseload needing attorney attention to under 5%
+- Formatted Excel (unmatched cases highlighted) and paginated PDF deliverables; flags unmatched records instead of dropping them; audits output against source records
+- Documented field mappings, business rules, and exclusion logic; wrote deployment documentation so the office runs it without him; presented results with documented caveats to technical and non-technical staff; handled confidential criminal case data
+Criminal Case System Analysis (assigned by his manager at the DA's office; repo: https://github.com/sakethdontha/case-processing-analysis-sas):
+- Mapped an 11-table case management dataset before querying; repaired UTF-8 corruption across all 11 CSVs; built a 48-check validation suite (key uniqueness, referential integrity, join cardinality, date sequencing, cross-field consistency, sentence arithmetic); flagged data quality exceptions before reporting; SAS (DATA step, PROC FREQ, PROC MEANS, Wilcoxon, Kruskal-Wallis, chi-square, PROC GLM regression) with a Python reference implementation
+- Rules: never call it sample, synthetic, or practice data; never show dataset sizes; never state its statistical conclusions as findings; it may go under this job (one bullet), under Projects, or both (if both, the job bullet is one short line)
+Other DA work: OpenCV + TrOCR pipeline to transcribe handwritten DAG file numbers (got Hugging Face approved through county ITS security review); pdfplumber extractors for Master Event Log PDFs
+Tools: Python, pdfplumber, pyodbc, SQL Server, T-SQL, openpyxl, SAS, OpenCV, TrOCR, Odyssey, JustWare
+
+3. Graduate Engineer, R&D | IFB Industries Limited | Jun 2023 - Jun 2024 | India
+- YOLOv11 refrigerator inventory recognition (Python, PyTorch, Roboflow): 94% detection accuracy; cut manual inventory tracking by 80%
+- Regression models (linear regression, SVR) on motor RPM and sensor data to detect and classify load conditions in washing machines
+- Automated Excel reporting of model performance (precision, recall, accuracy, confusion matrix, F1 score); flagged anomalies before production review; presented recommendations to management
+- Literature reviews, patent analysis, and technical reports for engineering and product teams
+
+4. Placement Coordinator | National Institute of Technology Goa, Training and Placement Cell | Jul 2022 - May 2023 | India
+- Coordinated placement drives for 100+ students between students, recruiters, and university management; kept applicant records accurate and reconciled against recruiter reports
+- Ran interview preparation sessions and wrote user guides for students; organized drives, networking events, and training sessions
+
+PROJECTS (use these exact names and links)
+- AI Immigration and News Assistant | https://github.com/sakethdontha/immigration-assistant-rag | RAG over 467 documents / 2,894 chunks from the USCIS Policy Manual and Inside Higher Ed; hybrid retrieval (pgvector HNSW + PostgreSQL full-text, reciprocal rank fusion, reranking); every answer cites its source, citations resolved after generation so they cannot be fabricated; query normalization (h1b to H-1B), intent routing; incremental ingestion with content-hash change detection | Python, FastAPI, PostgreSQL, pgvector, Next.js, Docker, OpenAI API
+- University Admission Prediction Pipeline | https://github.com/sakethdontha/End_to_End_ML_project | 92% accuracy, Gradient Boosting regression; Python/pandas ETL; Docker; AWS EC2 and S3; GitHub Actions CI/CD retraining | Python, scikit-learn, Docker, AWS, GitHub Actions
+- Cyberbullying Text Classification (not a capstone) | https://github.com/sakethdontha/Cyberbullying_detection | six cyberbullying classes; CountVectorizer; compared Random Forest, ANN, XGBoost, Gradient Boosting; 99% precision, 98% F1 | Python, scikit-learn, XGBoost, NLP
+- Anime Recommendation System | https://github.com/sakethdontha/Anime_recommendation_system | multimodal: CountVectorizer + cosine similarity on text blended with CLIP image embeddings | Python, PyTorch, CLIP
+- Retail Sales and Customer Behavior Dashboard | https://public.tableau.com/views/SalesCustomerDashboardsDynamic_17902659191470/SalesDashboard | current vs prior year Sales, Profit, Orders, Quantity, Customers with a year-select parameter; seasonal demand patterns and underperforming product lines; YoY KPI indicators; business users explore on their own | Tableau, Excel
+- Criminal Case System Analysis | https://github.com/sakethdontha/case-processing-analysis-sas | see the Data Intern job above for content and rules | SAS, Python, SQL
+- YOLO Refrigerator Object Detection: same work as the IFB job; never list it separately
+- Also available (no public link): LLM-Powered Shipment Support Assistant (RAG over logistics documents, FAISS, evaluated retrieval accuracy and hallucination rate); Resume and Job Description Metadata Extraction (OpenAI GPT-4 and Embeddings API, FAISS, LangChain); E-Commerce Platform Database (MySQL + MongoDB, stored procedures); Infectious Disease Analysis in R (clustering, Apriori); Bearing Vibration Analysis (FFT, wavelets)
+
+SKILLS (list only what fits the posting)
+Languages: Python, SQL (T-SQL, PostgreSQL, MySQL), R, SAS, TypeScript, C++
+Data: SQL Server, PostgreSQL, MySQL, MongoDB, pgvector, relational modeling, star schema, stored procedures, ETL, data reconciliation, data quality checks, pdfplumber
+Statistics: regression (linear, logistic, gradient boosting, SVR), hypothesis testing, chi-square, Wilcoxon, Kruskal-Wallis, ANOVA, time series, clustering
+BI: Power BI (DAX, Power Query), Tableau, Excel (pivot tables, formulas, lookups, Power Query), Power Automate, GA4, Google Tag Manager, Streamlit
+ML/AI: scikit-learn, PyTorch, TensorFlow, XGBoost, OpenCV, TrOCR, YOLO, CLIP, RAG, embeddings, FAISS, LangChain, OpenAI API, prompt engineering
+Cloud/DevOps: AWS (EC2, S3), Azure, Docker, Git, GitHub Actions, CI/CD, FastAPI
+Tools: MS Office, Qualtrics, Jotform, Roboflow, Ansys
+NEVER list: BigQuery, Snowflake, dbt, Airflow, Spark, Looker, Workday, UKG. SAS is analysis-level (SAS OnDemand), never "production".
+
+CERTIFICATIONS: Machine Learning Specialization, Coursera (Jul 2025); Azure Data Fundamentals, Microsoft (Sep 2025); Power BI (Jun 2025); Tableau (Nov 2024); DBMS (Dec 2022)
+LEADERSHIP: NSLS Member, University of Memphis (Feb 2026 - Present), mentors a 7-member team; GiveCamp Memphis 2026 volunteer, 48-hour hackathon building tools for nonprofits
+
+APPROVED NUMBERS (no others): four months to a day or two; under 5%; 900+ faculty; 650+ universities; 30+ agencies; 60%; 30%; 80%; 94%; 92%; 99%; 98%; 467 documents; 2,894 chunks; 100+ students; GPA 3.97; CGPA 8.55; 11 tables; 48 checks; 20 to 25% lead identification (estimated); 25% engagement
+
+COVER LETTER MATERIAL: strengths are automating manual document workflows, validating data before reporting, documenting so others can run his work, explaining results to non-technical people, and handling confidential data. Mention honestly any key requirement he lacks.
