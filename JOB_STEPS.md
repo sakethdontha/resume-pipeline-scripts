@@ -27,7 +27,7 @@ Drive IDs: 2_Ready 1K7xcrPB4KmeXaVxUTi3FBJB_GDhs0M4q | 3_Done 1vP_aCD05XxfvYASxX
 8. Reply with ONE line: `<Company> | <Role> | NN% | READY` (or NEEDS_SAKETH: reason).
 
 ## Rules
-- Only facts and numbers in facts.txt, updates.txt, and the bases. Never invent a number, tool, title, or date. GPA 3.97; title "Data Intern"; YOLOv11. Never mention OPT, visa, EAD, sponsorship, or citizenship.
+- Only facts and numbers in facts.txt, updates.txt, and the bases. Never invent a number, tool, title, or date. GPA 3.98; title "Data Intern"; YOLOv11. Never mention OPT, visa, EAD, sponsorship, or citizenship.
 - Criminal Case System Analysis: DA's office work; never "sample/practice"; no dataset sizes; no findings.
 - Results first: each bullet opens with the outcome; summary opens with his strongest relevant result. Do not copy the posting's sentences; each employer keyword at most twice.
 - US spelling; no em or en dashes; never: leveraged, spearheaded, passionate, robust, seamless, utilize, synergy, cutting-edge, delve, meticulous, comprehensive.

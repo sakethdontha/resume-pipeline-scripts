@@ -24,7 +24,7 @@ for k in kws:
 for pat in ["—","–","leverag","spearhead","passionate","robust","seamless","utiliz","synerg","cutting-edge","delve","meticulous","comprehensive","organis","analys(e|ed|ing) ","behaviour","visualis","colour"]:
     if re.search(pat, t): fail.append(f"banned word/char: {pat}")
 # 4 stale or forbidden facts
-for pat in ["4.0 gpa","gpa 4.0","gpa: 4.0","data analyst intern","yolov8","capstone","opt","sponsorship","visa","ead","citizen","bigquery","snowflake","dbt","airflow","spark","looker"]:
+for pat in ["4.0 gpa","gpa 4.0","gpa: 4.0","gpa 3.97","3.97 gpa","data analyst intern","yolov8","capstone","opt","sponsorship","visa","ead","citizen","bigquery","snowflake","dbt","airflow","spark","looker"]:
     if re.search(r"\b"+re.escape(pat)+r"\b", t): fail.append(f"forbidden/stale term: {pat}")
 # 5 Criminal Case System Analysis: no dataset sizes and no findings anywhere
 for pat in [r"5,800", r"12,200", r"27,700"]:
@@ -32,7 +32,7 @@ for pat in [r"5,800", r"12,200", r"27,700"]:
 for pat in ["delay driver","2.5x","dominant driver","main driver"]:
     if pat in t: fail.append(f"states a finding from the case analysis: {pat}")
 # 6 numbers not on the approved list
-allowed = {"3.97","4.0","8.55","10","900","650","30","60","80","94","92","99","98","467","2,894","100","5","20","25","11","48","7","1","2","3","8"}
+allowed = {"3.98","3.97","4.0","8.55","10","900","650","30","60","80","94","92","99","98","467","2,894","100","5","20","25","11","48","7","1","2","3","8"}
 if len(sys.argv) > 3:
     allowed |= {x.strip() for x in open(sys.argv[3]) if x.strip()}
 for n in re.findall(r"(?<![\w.])\d[\d,]*(?:\.\d+)?", all_text):

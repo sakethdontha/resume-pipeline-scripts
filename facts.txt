@@ -59,6 +59,6 @@ NEVER list: BigQuery, Snowflake, dbt, Airflow, Spark, Looker, Workday, UKG. SAS 
 CERTIFICATIONS: Machine Learning Specialization, Coursera (Jul 2025); Azure Data Fundamentals, Microsoft (Sep 2025); Power BI (Jun 2025); Tableau (Nov 2024); DBMS (Dec 2022)
 LEADERSHIP: NSLS Member, University of Memphis (Feb 2026 - Present), mentors a 7-member team; GiveCamp Memphis 2026 volunteer, 48-hour hackathon building tools for nonprofits
 
-APPROVED NUMBERS (no others): four months to a day or two; under 5%; 900+ faculty; 650+ universities; 30+ agencies; 60%; 30%; 80%; 94%; 92%; 99%; 98%; 467 documents; 2,894 chunks; 100+ students; GPA 3.97; CGPA 8.55; 11 tables; 48 checks; 20 to 25% lead identification (estimated); 25% engagement
+APPROVED NUMBERS (no others): four months to a day or two; under 5%; 900+ faculty; 650+ universities; 30+ agencies; 60%; 30%; 80%; 94%; 92%; 99%; 98%; 467 documents; 2,894 chunks; 100+ students; GPA 3.98; CGPA 8.55; 11 tables; 48 checks; 20 to 25% lead identification (estimated); 25% engagement
 
 COVER LETTER MATERIAL: strengths are automating manual document workflows, validating data before reporting, documenting so others can run his work, explaining results to non-technical people, and handling confidential data. Mention honestly any key requirement he lacks.
