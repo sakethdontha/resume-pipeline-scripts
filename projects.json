@@ -15,7 +15,7 @@
   "bullets": ["Built a Tableau dashboard comparing current and prior-year Sales, Profit, Orders, Quantity, and Customers, surfacing seasonal demand patterns and underperforming product lines.",
               "Added a year-select parameter, weekly trends, and year-over-year KPI indicators so business users can run their own analysis."]},
  "Criminal Case System Analysis": {"name": "Criminal Case System Analysis", "url": "https://github.com/sakethdontha/case-processing-analysis-sas", "tools": "SAS, Python, SQL",
-  "bullets": ["Mapped an 11-table case management dataset at the District Attorney's Office, repaired UTF-8 corruption across all 11 CSVs, and built a 48-check validation suite covering key uniqueness, referential integrity, join cardinality, and date sequencing.",
+  "bullets": ["Mapped an 11-table case management dataset at the District Attorney's Office, repaired UTF-8 corruption across all 11 CSVs, and ran 7 SAS data quality checks covering date sequencing, closed cases missing a disposition, cases with no charges, and records with no parent case.",
               "Analyzed case processing in SAS (DATA step, PROC FREQ, PROC MEANS, Wilcoxon, Kruskal-Wallis, chi-square, PROC GLM regression) with a Python reference implementation, flagging data quality exceptions before reporting."]},
  "LLM-Powered Shipment Support Assistant": {"name": "LLM-Powered Shipment Support Assistant", "tools": "Python, FAISS, embeddings, LLM API",
   "bullets": ["Built a retrieval-augmented assistant that answers shipping, tracking, delivery exception, and service policy questions from large collections of logistics documents.",

@@ -24,7 +24,7 @@ for k in kws:
 for pat in ["—","–","leverag","spearhead","passionate","robust","seamless","utiliz","synerg","cutting-edge","delve","meticulous","comprehensive","organis","analys(e|ed|ing) ","behaviour","visualis","colour"]:
     if re.search(pat, t): fail.append(f"banned word/char: {pat}")
 # 4 stale or forbidden facts
-for pat in ["4.0 gpa","gpa 4.0","gpa: 4.0","gpa 3.97","3.97 gpa","data analyst intern","yolov11","capstone","opt","sponsorship","visa","ead","citizen","bigquery","snowflake","dbt","airflow","spark","looker"]:
+for pat in ["4.0 gpa","gpa 4.0","gpa: 4.0","gpa 3.97","3.97 gpa","data analyst intern","yolov11","48-check","48 checks","48 check","capstone","opt","sponsorship","visa","ead","citizen","bigquery","snowflake","dbt","airflow","spark","looker"]:
     if re.search(r"\b"+re.escape(pat)+r"\b", t): fail.append(f"forbidden/stale term: {pat}")
 # 5 Criminal Case System Analysis: no dataset sizes and no findings anywhere
 for pat in [r"5,800", r"12,200", r"27,700"]:
