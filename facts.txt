@@ -27,7 +27,7 @@ Other DA work: OpenCV + TrOCR pipeline to transcribe handwritten DAG file number
 Tools: Python, pdfplumber, pyodbc, SQL Server, T-SQL, openpyxl, SAS, OpenCV, TrOCR, Odyssey, JustWare
 
 3. Graduate Engineer, R&D | IFB Industries Limited | Jun 2023 - Jun 2024 | India
-- YOLOv11 refrigerator inventory recognition (Python, PyTorch, Roboflow): 94% detection accuracy; cut manual inventory tracking by 80%
+- YOLOv8 refrigerator inventory recognition (Python, PyTorch, Roboflow): 97.5% mAP@50 and 94% recall on a 31-image validation set (repo: https://github.com/sakethdontha/Object-Detection-Project)
 - Regression models (linear regression, SVR) on motor RPM and sensor data to detect and classify load conditions in washing machines
 - Automated Excel reporting of model performance (precision, recall, accuracy, confusion matrix, F1 score); flagged anomalies before production review; presented recommendations to management
 - Literature reviews, patent analysis, and technical reports for engineering and product teams
@@ -59,6 +59,6 @@ NEVER list: BigQuery, Snowflake, dbt, Airflow, Spark, Looker, Workday, UKG. SAS 
 CERTIFICATIONS: Machine Learning Specialization, Coursera (Jul 2025); Azure Data Fundamentals, Microsoft (Sep 2025); Power BI (Jun 2025); Tableau (Nov 2024); DBMS (Dec 2022)
 LEADERSHIP: NSLS Member, University of Memphis (Feb 2026 - Present), mentors a 7-member team; GiveCamp Memphis 2026 volunteer, 48-hour hackathon building tools for nonprofits
 
-APPROVED NUMBERS (no others): four months to a day or two; under 5%; 900+ faculty; 650+ universities; 30+ agencies; 60%; 30%; 80%; 94%; 92%; 99%; 98%; 467 documents; 2,894 chunks; 100+ students; GPA 3.98; CGPA 8.55; 11 tables; 48 checks; 20 to 25% lead identification (estimated); 25% engagement
+APPROVED NUMBERS (no others): four months to a day or two; under 5%; 900+ faculty; 650+ universities; 30+ agencies; 60%; 30%; 94% recall; 97.5% mAP@50; 31-image validation set; 92%; 99%; 98%; 467 documents; 2,894 chunks; 100+ students; GPA 3.98; CGPA 8.55; 11 tables; 48 checks; 20 to 25% lead identification (estimated); 25% engagement
 
 COVER LETTER MATERIAL: strengths are automating manual document workflows, validating data before reporting, documenting so others can run his work, explaining results to non-technical people, and handling confidential data. Mention honestly any key requirement he lacks.
