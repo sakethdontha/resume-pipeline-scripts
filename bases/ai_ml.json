@@ -1,6 +1,6 @@
 {
  "tagline": "MS Data Science | Python | Machine Learning | RAG | LLMs | SQL | Docker",
- "summary": "Data scientist who built a YOLOv11 inventory recognition model at IFB Industries with 94% detection accuracy that cut manual inventory tracking by 80%. Built a RAG assistant over 467 documents with hybrid retrieval and citations that cannot be fabricated, and an automated Python and SQL Server pipeline at the Shelby County District Attorney General's Office that cut a four-month review to a day or two. Ship models end to end with Docker, AWS, and CI/CD. Finishing an M.S. in Data Science (GPA 3.98, December 2026).",
+ "summary": "Data scientist who built a YOLOv8 inventory recognition model at IFB Industries reaching 97.5% mAP@50 and 94% recall. Built a RAG assistant over 467 documents with hybrid retrieval and citations that cannot be fabricated, and an automated Python and SQL Server pipeline at the Shelby County District Attorney General's Office that cut a four-month review to a day or two. Ship models end to end with Docker, AWS, and CI/CD. Finishing an M.S. in Data Science (GPA 3.98, December 2026).",
  "skills": [
   [
    "Machine Learning & AI",
@@ -56,7 +56,7 @@
    "dates": "Jun 2023 - Jun 2024",
    "place": "India",
    "bullets": [
-    "Cut manual inventory tracking by 80% by deploying a YOLOv11 refrigerator inventory recognition model (Python, PyTorch, Roboflow) at 94% detection accuracy.",
+    "Built a YOLOv8 refrigerator inventory recognition model (Python, PyTorch, Roboflow) reaching 97.5% mAP@50 and 94% recall on a 31-image validation set.",
     "Built regression models (linear regression, SVR) on motor RPM and sensor data to detect and classify load conditions in washing machines.",
     "Tracked model performance (precision, recall, F1 score, confusion matrix) in automated reports, flagged anomalies before production review, and presented recommendations to management."
    ]
