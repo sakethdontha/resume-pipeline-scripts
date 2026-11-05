@@ -47,7 +47,7 @@
     "Cut a review that took up to four months down to a day or two with an automated Python and SQL Server pipeline, closing a backlog the office had carried for years.",
     "Extracted case records from Odyssey division-report PDFs, reconciled them against the JustWare SQL Server database, and applied five families of exclusion rules that narrowed the caseload needing attorney attention to under 5%.",
     "Delivered formatted Excel and PDF reports that flag unmatched records instead of dropping them, audited output against source records, and wrote deployment documentation so the office runs the system on its own.",
-    "Validated an 11-table case management dataset with a 48-check validation suite and analyzed it in SAS before reporting results."
+    "Validated an 11-table case management dataset with 7 SAS data quality checks (date sequencing, missing dispositions, orphan records) and analyzed it in SAS before reporting results."
    ]
   },
   {
